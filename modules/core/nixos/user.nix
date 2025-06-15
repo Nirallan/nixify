@@ -34,9 +34,11 @@
   };
   
   users.mutableUsers = true;
+  users.defaultUserShell = pkgs.zsh;
 
   users.users.${username} = {
     isNormalUser = true;
+    useDefaultShell = true;
     extraGroups = [
       "networkmanager"
       "wheel"
