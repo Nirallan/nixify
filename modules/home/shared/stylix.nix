@@ -12,8 +12,8 @@
     autoEnable = true;
 
     image = pkgs.fetchurl {
-      url = "https://box.apeiros.xyz/public/everforest_walls/nature/fog_forest_1.png";
-      sha256 = "wQxWI0FNc37mvRO4zV123NXG50XOO6qKv7J8IKIxgmo=";
+      url = "https://box.apeiros.xyz/public/everforest_walls/other/car_rain.png";
+      sha256 = "";
     };
 
     base16Scheme = ../../.. + "/themes/everforest-dark-hard.yaml";
