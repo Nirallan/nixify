@@ -17,6 +17,11 @@
       url = "gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    darwin = {
+      url = "github:nix-darwin/nix-darwin/master";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -29,6 +34,18 @@
     {
       nixosConfigurations = {
         ${hostname} = nixpkgs.lib.nixosSystem {
+          inherit system;
+          specialArgs = {
+            inherit inputs;
+            inherit hostname;
+            inherit username;
+          };
+          modules = [ ./modules/hosts/${hostname} ];
+        };
+      };
+
+      darwinConfigurations = {
+        ${hostname} = darwin.lib.darwinSystem {
           inherit system;
           specialArgs = {
             inherit inputs;
