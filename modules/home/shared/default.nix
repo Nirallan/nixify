@@ -4,5 +4,6 @@ _: {
     ./nixvim
     ./firefox.nix
     ./stylix.nix
+    ./nixcord.nix
   ];
 }
