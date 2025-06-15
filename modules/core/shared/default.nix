@@ -1,3 +1,5 @@
 _: {
-  ./steam.nix
+  imports = [
+    ./steam.nix
+  ];
 }
