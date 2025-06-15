@@ -12,11 +12,11 @@
     autoEnable = true;
 
     image = pkgs.fetchurl {
-      url = "https://raw.githubusercontent.com/Apeiros-46B/everforest-walls/refs/heads/main/other/car_rain.png";
+      url = "https://image-0.uhdpaper.com/wallpaper/anime-art-night-sky-scenery-4k-wallpaper-uhdpaper.com-140@0@f.jpg";
       sha256 = "IuJ1nAchxC4JS1VZw7GqjB+dXbI/7ATTdoXeaiHayV4=";
     };
 
-    base16Scheme = ../../.. + "/themes/everforest-dark-hard.yaml";
+    base16Scheme = ../../.. + "/themes/rose-pine-moon.yaml";
 
     cursor = {
       package = pkgs.bibata-cursors;
