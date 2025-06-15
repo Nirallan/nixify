@@ -1,12 +1,15 @@
 _: {
   programs.nixvim = {
-    colorschemes.everforest = {
+    colorschemes.rose-pine = {
       enable = true;
-      settings = {
-        background = "hard";
-      };
     };
 
-    colorscheme = "everforest";
+    extraConfigLua = ''
+      require("rose-pine").setup({
+        variant = "moon"
+      })
+
+      vim.cmd("colorscheme rose-pine-moon")
+    '';
   };
 }
