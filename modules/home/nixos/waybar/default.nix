@@ -1,6 +1,5 @@
 _: {
   imports = [
-    ./waybar.nix
     ./style.nix
     ./left.nix
     ./center.nix
