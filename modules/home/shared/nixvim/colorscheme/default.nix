@@ -2,14 +2,11 @@ _: {
   programs.nixvim = {
     colorschemes.everforest = {
       enable = true;
+      settings = {
+        background = "hard";
+      };
     };
 
-    extraConfigLua = ''
-      require("everforest").setup({
-        background = "hard"
-      })
-
-      vim.cmd("colorscheme everforest")
-    '';
+    colorscheme = "everforest";
   };
 }
