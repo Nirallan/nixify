@@ -12,8 +12,8 @@
     autoEnable = true;
 
     image = pkgs.fetchurl {
-      url = "https://image-0.uhdpaper.com/wallpaper/anime-art-night-sky-scenery-4k-wallpaper-uhdpaper.com-140@0@f.jpg";
-      sha256 = "IuJ1nAchxC4JS1VZw7GqjB+dXbI/7ATTdoXeaiHayV4=";
+      url = "https://w.wallhaven.cc/full/rr/wallhaven-rr1kow.jpg";
+      sha256 = "i9BUrp8RaNo4PUCExBunPPlyTi+v3ZlUC4xKosd5RxA=";
     };
 
     base16Scheme = ../../.. + "/themes/rose-pine-moon.yaml";
