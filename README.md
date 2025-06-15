@@ -10,7 +10,8 @@ Welcome to my Nix setup! This repository contains my personal configuration file
     - **Application Launcher*** Wofi
     - **Login Greeter:** Greetd (Tuigreet)
 - **OS**: MacOS (Laptop)
-- **Theme**: Catppuccin Mocha
+- **Theme**: Everforest Dark Hard
+
 ## ✨ Features
 - ✅ **Cross-Platform**: Shared system, and home modules across NixOS and MacOS.
 - 🧰 **MacOS Support**: Under active development (with `nix-darwin`)
