@@ -10,5 +10,6 @@ _: {
     ./greeter.nix
     ./user.nix
     ./lutris.nix
+    ./steam.nix
   ];
 }
