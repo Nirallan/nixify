@@ -2,7 +2,6 @@ _: {
   imports = [
     ./style.nix
     ./left.nix
-    ./center.nix
     ./right.nix
   ];
 

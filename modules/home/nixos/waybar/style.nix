@@ -159,28 +159,5 @@ in
     #pulseaudio {
       padding-bottom: 6px;
     }
-
-    #workspaces button {
-      color: @color3;
-      font-size: 26px;
-      margin: 0 6px;
-      border: none;
-      outline: none;
-      box-shadow: none;
-    }
-
-    #workspaces button:hover {
-      background-color: transparent;
-      border: none;
-      outline: none;
-      box-shadow: none;
-    }
-
-    #workspaces button.active {
-      color: @color8;
-      border: none;
-      outline: none;
-      box-shadow: none;
-    }
   '';
 }
