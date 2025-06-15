@@ -6,6 +6,37 @@
   imports = [ 
     inputs.nixvim.homeManagerModules.nixvim
     ./wakatime
+    ./tmux-navigator
+    ./colorscheme
+    ./web-devicons
+    ./nvim-tree
+    ./which-key
+    ./telescope
+    ./dashboard
+    ./auto-session
+    ./bufferline
+    ./lualine
+    ./dressing
+    ./treesitter
+    ./indent-blankline
+    ./completion
+    ./auto-pairs
+    ./todo-comments
+    ./lsp
+    ./linter
+    ./lazygit
+    ./colorizer
+    ./barbecue
+    ./neocord
+    ./noice
+    ./notify
+    ./nui
+    ./plenary
+    ./snippets
+    ./wilder
+    ./project-nvim
+    ./neotest
+    ./fidget
   ];
 
   programs.nixvim = {
