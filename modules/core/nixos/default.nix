@@ -9,6 +9,6 @@ _: {
     ./audio.nix
     ./greeter.nix
     ./user.nix
-    ./lutris
+    ./lutris.nix
   ];
 }
