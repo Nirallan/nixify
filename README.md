@@ -15,7 +15,7 @@ Welcome to my Nix setup! This repository contains my personal configuration file
 - ✅ **Cross-Platform**: Shared system, and home modules across NixOS and MacOS.
 - 🧰 **MacOS Support**: Under active development (with `nix-darwin`)
 - 🧼 **Fully Declarative**: Fully flake-based, where dotfiles, style and programs are managed through Nix.
-- 🎨 **Beautiful Theme**: Catppuccin Mocha across system and apps.
+- 🎨 **Beautiful Theme**: Everforest Dark Hard across system and apps.
 - 🎮 **Gaming Support**: Gaming out of the box, with Steam, Proton and Lutris ready.
 - ♻  **Garbage Collector**: Keep your system clean, and updated.
 - 🧪 **Modular Design**: This system is configured declaratively and is designed to be reproducible, minimal, and aesthetically pleasing.
