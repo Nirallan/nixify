@@ -35,7 +35,6 @@
     ./snippets
     ./wilder
     ./project-nvim
-    ./neotest
     ./fidget
   ];
 
