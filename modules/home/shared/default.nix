@@ -6,5 +6,6 @@ _: {
     ./firefox.nix
     ./stylix.nix
     ./nixcord.nix
+    ./packages.nix
   ];
 }
