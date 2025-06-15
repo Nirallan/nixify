@@ -35,6 +35,7 @@
 
     targets = {
       firefox.profileNames = [ "default" ];
+      nixvim.enable = false;
     };
   };
 }
