@@ -38,6 +38,20 @@
     ./fidget
   ];
 
+  home.packages = with pkgs; [
+    gcc
+    ripgrep
+    statix
+    shellcheck
+    stylua
+    nixfmt-rfc-style
+    nodejs
+    prettierd
+    nodePackages.jsonlint
+    nodePackages.eslint_d
+    nodePackages.prettier
+  ];
+
   programs.nixvim = {
     enable = true;
     globals.mapleader = " ";
