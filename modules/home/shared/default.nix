@@ -7,5 +7,6 @@ _: {
     ./stylix.nix
     ./nixcord.nix
     ./packages.nix
+    ./spicetify.nix
   ];
 }
