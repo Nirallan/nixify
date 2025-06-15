@@ -6,6 +6,7 @@ _: {
     ./layout.nix
     ./misc.nix
     ./monitor.nix
+    ./auto-run.nix
   ];
 
   wayland.windowManager.hyprland = {
