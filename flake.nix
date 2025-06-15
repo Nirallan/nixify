@@ -25,7 +25,7 @@
   };
 
   outputs =
-    { nixpkgs, ... }@inputs:
+    { nixpkgs, darwin, ... }@inputs:
     let
       system = "x86_64-linux";
       hostname = "selene";
