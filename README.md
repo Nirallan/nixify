@@ -1,6 +1,6 @@
 # 🧊 Dotfiles — Designed For NixOS & MacOS (WIP)
 
-Welcome to my Nix setup! This repository contains my personal configuration files managed with flakes, focused on a minimal but powerful work and gaming environment, themed with Catppuccin Mocha.
+Welcome to my Nix setup! This repository contains my personal configuration files managed with flakes, focused on a minimal but powerful work and gaming environment, themed with Rose Pine Moon.
 
 ---
 ## 🚀 About
@@ -10,13 +10,13 @@ Welcome to my Nix setup! This repository contains my personal configuration file
     - **Application Launcher*** Wofi
     - **Login Greeter:** Greetd (Tuigreet)
 - **OS**: MacOS (Laptop)
-- **Theme**: Everforest Dark Hard
+- **Theme**: Rose Pine Moon
 
 ## ✨ Features
 - ✅ **Cross-Platform**: Shared system, and home modules across NixOS and MacOS.
 - 🧰 **MacOS Support**: Under active development (with `nix-darwin`)
 - 🧼 **Fully Declarative**: Fully flake-based, where dotfiles, style and programs are managed through Nix.
-- 🎨 **Beautiful Theme**: Everforest Dark Hard across system and apps.
+- 🎨 **Beautiful Theme**: Rose Pine Moon across system and apps.
 - 🎮 **Gaming Support**: Gaming out of the box, with Steam, Proton and Lutris ready.
 - ♻  **Garbage Collector**: Keep your system clean, and updated.
 - 🧪 **Modular Design**: This system is configured declaratively and is designed to be reproducible, minimal, and aesthetically pleasing.
